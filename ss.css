@@ -1,0 +1,160 @@
+body {
+  background-color: white;
+}
+h1 {
+    color: black;
+    font-size: 60;
+}
+
+h2 {
+    
+    position: absolute;
+    bottom: 1;
+    
+}
+
+h3 {
+    
+    position: absolute;
+    bottom:1;
+    right: 3;
+}
+table {
+  margin: auto;
+  background-color: lightseagreen;
+  width: 295px;
+  max-width: 295px;
+  height: 325px;
+  text-align: center;
+  border-radius: 4px;
+  padding-right: 10px;
+    position: absolute;
+    top: 80;
+    right: 444;
+    bottom: 5;
+
+}
+
+input {
+  outline: 0;
+  position: relative;
+  left: 6px;
+  top: 5px;
+  border: 0;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 30px;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+}
+
+input:hover {
+  border: 0 solid #000;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 35px;
+  box-shadow: 0 4px white;
+}
+
+input:active {
+  top: 4px;
+  border: 0 solid #000;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0;
+    box-shadow: 0 4px black;
+}
+
+.display {
+
+  width: 325px;
+  max-width: 280px;
+  font-size: 35px;
+  text-align: center;
+  background-color: black;
+  float: left;
+color: white;
+}
+
+.display:hover {
+  width: 280px;
+  font-size: 35px;
+  text-align: center;
+  background-color: black;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.display:active {
+  top: 5px;
+  width: 280px;
+  font-size: 35px;
+  text-align: center;
+  background-color: black;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+.operator {
+  background-color: orange;
+  position: relative;
+    font-size: 35;
+}
+
+.operator:hover {
+  background-color: orange;
+  box-shadow: 0 4px orange;
+}
+
+.operator:active {
+  top: 4px;
+  box-shadow: none;
+background-color: black;
+    color: white;
+}
+
+#clear {
+  float: left;
+  position: relative;
+  display: block;
+  background-color: #ff9fa8;
+}
+
+#clear:hover {
+  float: left;
+  display: block;
+  background-color: #F297A0;
+  margin-bottom: 15px;
+  box-shadow: 0 4px #CC7F86;
+}
+
+#clear:active {
+  float: left;
+  top: 4px;
+  display: block;
+  background-color: black;
+  margin-bottom: 15px;
+  box-shadow: none;
+}
+
+#gh {
+    
+    position: absolute;
+    bottom: 5;
+    right: 555;
+}
